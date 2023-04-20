@@ -1,0 +1,62 @@
+/* #2A0944 Dark purple
+#3B185F purple
+#A12568 pink
+#FEC260  yellow */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+    background-color: #2A0944;
+    color: #FEC260;
+    overflow: hidden;
+}
+
+#header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: .5% 10%;
+}
+
+#logo_container, #nav_buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+#logo_icon {
+    width: 6%;
+    margin-left: 2%;
+}
+
+#nav_buttons {
+    justify-content: space-around;
+    width: 18%;
+}
+
+h1, #nav_buttons a, #sign_in {
+    font-size: 20px;
+    text-decoration: none;
+    color: #FEC260;
+}
+
+#main_container {
+    display: flex;
+}
+
+#levels_container {
+    flex: 1;
+    background-color: #3B185F;
+    text-align: center;
+}
+
+#game_container {
+    flex: 12;
+    height: 95lvh;
+    overflow: hidden;
+}
